@@ -29,12 +29,12 @@ font-family: 'Montserrat-Thin';
 }
 
 .body {
-    max-width: 1200px;
+    min-width: 1200px;
 }
 
 .header-index {
     background: url(../img/header-bg.png) 50% 50%/ cover no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 
